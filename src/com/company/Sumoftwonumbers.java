@@ -12,6 +12,7 @@ public class Sumoftwonumbers {
         System.out.println("The result is "+ multiplication(a,b));
         System.out.println("The result is "+ division(b,a));
         System.out.println("The result is "+ subtraction(a,b));
+        System.out.println("The result is "+ average(a,b));
 
 
 
@@ -36,6 +37,12 @@ public class Sumoftwonumbers {
 
     public static int subtraction(int number1, int number2){
         int result=number1 - number2;
+
+        return result;
+    }
+
+    public static int average (int number1, int number2){
+        int result=(number1+number2)/2;
 
         return result;
     }
